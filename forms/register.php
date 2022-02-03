@@ -20,7 +20,7 @@
 		$locality=$_POST['Locality'];
 
 		// to make connection
-		$conn=mysqli_connect("localhost","root","","hotel");
+		$conn=mysqli_connect("shotel.mysql.database.azure.com","sank@shotel","sakshit@2810","hotel");
 
 		//check if connection is done
 		if(!$conn)  
