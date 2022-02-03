@@ -16,7 +16,7 @@
 		$end_time=$_POST['End_time'];
 
 		// to make connection
-		$conn=mysqli_connect("localhost","root","","hotel");
+		$conn=mysqli_connect("shotel.mysql.database.azure.com","sank@shotel","sakshit@2810","hotel");
 
 		//check if connection is done
 		if(!$conn)  
